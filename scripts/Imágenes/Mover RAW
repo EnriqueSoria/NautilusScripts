@@ -1,0 +1,1 @@
+mkdir RAW && mv *.CR2 RAW/

@@ -1,0 +1,6 @@
+echo "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | while read filename; do
+    chmod +x "$filename"
+    mv "$filename" ~/Applications/
+done
+
+
